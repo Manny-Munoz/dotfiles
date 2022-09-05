@@ -22,3 +22,13 @@ vim.opt.splitright = true
 vim.opt.smartindent = true
 vim.opt.wrap = true
 vim.opt.linebreak = true
+
+vim.g.mapleader = " "
+
+vim.api.nvim_exec([[
+    augroup fmt
+      autocmd!
+      autocmd BufWritePre * undojoin | Neoformat
+    augroup END
+]], false)
+
