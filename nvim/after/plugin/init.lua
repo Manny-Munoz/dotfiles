@@ -1,4 +1,4 @@
-require('calvera').set()
+vim.cmd("colorscheme kanagawa")
 
 require('toggleterm').setup()
 
@@ -17,3 +17,13 @@ require('nvim-treesitter.configs').setup{
 }
 require('lspsaga')
 
+require('Comment').setup()
+
+require('tabline').setup({})
+
+require("lsp-colors").setup({
+  Error = "#db4b4b",
+  Warning = "#e0af68",
+  Information = "#0db9d7",
+  Hint = "#10B981"
+})

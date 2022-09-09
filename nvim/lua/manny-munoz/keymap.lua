@@ -9,6 +9,8 @@ keymap("n", "tk", ":tabnext<CR>", opts)
 
 keymap("i", "cx", "<Esc>", opts)
 
-keymap("n", "<leader>f", ":Neoformat<CR>", opts)
+keymap("n", "<leader>e", ":NeoTreeFloatToggle<CR>", opts)
 
-keymap("n", "<leader>e", ":Neotree<CR>", opts)
+keymap("n", "<leader>w", ":lua require('nvim-window').pick()<CR>", opts)
+
+

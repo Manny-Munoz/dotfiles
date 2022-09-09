@@ -74,15 +74,30 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["barbar.nvim"] = {
+  ["Comment.nvim"] = {
     loaded = true,
-    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/barbar.nvim",
-    url = "https://github.com/romgrk/barbar.nvim"
+    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim"
   },
   ["calvera-dark.nvim"] = {
     loaded = true,
     path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/calvera-dark.nvim",
     url = "https://github.com/yashguptaz/calvera-dark.nvim"
+  },
+  catppuccin = {
+    loaded = true,
+    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
+  ["lsp-colors.nvim"] = {
+    loaded = true,
+    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/lsp-colors.nvim",
+    url = "https://github.com/folke/lsp-colors.nvim"
   },
   ["lspsaga.nvim"] = {
     loaded = true,
@@ -119,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-tabline"] = {
+    loaded = true,
+    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/nvim-tabline",
+    url = "https://github.com/crispgm/nvim-tabline"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -128,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
+  ["nvim-window.git"] = {
+    loaded = true,
+    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/nvim-window.git",
+    url = "https://gitlab.com/yorickpeterse/nvim-window"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -139,10 +164,30 @@ _G.packer_plugins = {
     path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["poimandres.nvim"] = {
+    loaded = true,
+    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/poimandres.nvim",
+    url = "https://github.com/olivercederborg/poimandres.nvim"
+  },
+  ["rasmus.nvim"] = {
+    loaded = true,
+    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/rasmus.nvim",
+    url = "https://github.com/kvrohit/rasmus.nvim"
+  },
+  ["roshnivim-cs"] = {
+    loaded = true,
+    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/roshnivim-cs",
+    url = "https://github.com/shaeinst/roshnivim-cs"
+  },
   ["toggleterm.nvim"] = {
     loaded = true,
     path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["tokyodark.nvim"] = {
+    loaded = true,
+    path = "/home/quetzalcoder/.local/share/nvim/site/pack/packer/start/tokyodark.nvim",
+    url = "https://github.com/tiagovla/tokyodark.nvim"
   }
 }
 

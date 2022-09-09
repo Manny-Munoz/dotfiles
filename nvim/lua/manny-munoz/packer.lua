@@ -2,7 +2,7 @@ return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
   -- add language server Protocol
   use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
-	use 'yashguptaz/calvera-dark.nvim'
+
   -- add float terminal 
 	use 'akinsho/toggleterm.nvim'
   -- add autopairs automatically
@@ -39,9 +39,22 @@ return require('packer').startup(function(use)
     }
   } 
 
-  use {
-  'romgrk/barbar.nvim',
-  requires = {'kyazdani42/nvim-web-devicons'}
-}
+  use 'numToStr/Comment.nvim'
+
+  use 'crispgm/nvim-tabline'
+
+  use 'folke/lsp-colors.nvim'
+
+  -- Colorschemes
+  use 'shaeinst/roshnivim-cs'
+ 	use 'yashguptaz/calvera-dark.nvim' 
+  use { "catppuccin/nvim", as = "catppuccin" }
+  use 'https://gitlab.com/yorickpeterse/nvim-window.git'
+  use 'tiagovla/tokyodark.nvim'
+  use "rebelot/kanagawa.nvim"
+  use 'kvrohit/rasmus.nvim'
+  use 'olivercederborg/poimandres.nvim'
+
+
 
 end)

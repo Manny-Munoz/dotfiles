@@ -30,5 +30,9 @@ vim.api.nvim_exec([[
       autocmd!
       autocmd BufWritePre * undojoin | Neoformat
     augroup END
-]], false)
+]], true)
+
+vim.api.nvim_exec([[
+      autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+]], true)
 
