@@ -4,6 +4,7 @@ vim.opt.winblend = 0
 vim.opt.pumblend = 5
 vim.opt.background = 'dark'
 
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -25,14 +26,8 @@ vim.opt.linebreak = true
 
 vim.g.mapleader = " "
 
-vim.api.nvim_exec([[
-    augroup fmt
-      autocmd!
-      autocmd BufWritePre * undojoin | Neoformat
-    augroup END
-]], true)
+-- Disable Mouse
+vim.cmd[[set mouse=]]
 
-vim.api.nvim_exec([[
-      autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-]], true)
 
+vim.opt.scrolloff = 10

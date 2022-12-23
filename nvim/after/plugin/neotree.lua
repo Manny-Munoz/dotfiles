@@ -12,7 +12,7 @@ require("neo-tree").setup{
             nowait = true,
           },
           mappings = {
-            ["<cr>"] = "open",
+            ["o"] = "open",
             ["S"] = "open_split",
             ["s"] = "open_vsplit",
             ["<enter>"] = {
@@ -21,7 +21,6 @@ require("neo-tree").setup{
                 show_path = "relative"
               }
             },
-
             ["w"] = "open_with_window_picker",
             ["C"] = "close_node",
             ["z"] = "close_all_nodes",
